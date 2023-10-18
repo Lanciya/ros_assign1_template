@@ -44,13 +44,10 @@ For example ```git commit -m "assign1-half-complete"```
 So far we have only modified our local copy of the repository. The push term refers to upload local repository content to a remote repository. 
 Pushing is an act of transfer commits from your local repository to a remote repository. Pushing is capable of overwriting changes; caution should be taken when pushing.
 
-Adding remote repo
-- Open your assignment remote folder (ie github folder) in a browser and copy the address from the address bar 
-
-git branch -M main
-git remote add origin <remote git repo address>
-git push -u origin main
-
-
+```git push```
+You would be asked to enter your user name and personal access token 
+## Personal access tokens are an alternative to using passwords for 
+## authentication to GitHub when using the GitHub API or the command line.
+### [follow this link to create a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) 
 
 
